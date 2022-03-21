@@ -1,0 +1,15 @@
+.SlideShowWrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 10rem;
+  height: fit-content;
+}
+.SliderItemDiv {
+  padding: 20px;
+  text-align: center;
+}
+.SliderItemDiv:hover img {
+  height: 400px;
+  width: 200px;
+}

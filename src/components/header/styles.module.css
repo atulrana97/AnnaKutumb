@@ -1,0 +1,23 @@
+.HeaderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: fit-content;
+  width: 100%;
+  padding: 0.5rem;
+  z-index: 99;
+  background-color: #ffff;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+.Heading {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.subHeading {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #fdbf06;
+}
