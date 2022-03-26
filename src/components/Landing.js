@@ -4,6 +4,7 @@ import React from "react";
 
 import SlideShow from "./corousel/SlideShow";
 import Banner from "./Banner/Banner";
+import NewComponent from "./corousel/newComponent";
 
 export default function Landing() {
   return (
@@ -18,7 +19,7 @@ export default function Landing() {
       }}
     >
       <Banner />
-      <SlideShow />
+      <NewComponent />
     </div>
   );
 }
